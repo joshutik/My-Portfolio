@@ -6,3 +6,16 @@
         background-repeat: no-repeat;
     }
 }
+
+nav{
+    background-color: transparent !important;
+}
+
+body{
+    min-height: 80vh !important;
+}
+
+.content{
+    margin-top:-150px !important;
+    height: 100vh !important;
+}
