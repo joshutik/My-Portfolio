@@ -12,11 +12,12 @@ nav{
     background-color: transparent !important;
 }
 
-body{
-    
+.content{
+    margin-top:-150px !important;
+    padding-top: 0px;
+    height: 70vh !important;
 }
 
-.content{
-    margin-top:-20  0px !important;
-    min-height: 100vh !important;
+.hero-page{
+    background-color: darkgray;
 }
