@@ -12,10 +12,10 @@ nav{
 }
 
 body{
-    min-height: 80vh !important;
+    min-height: 100vh !important;
 }
 
 .content{
     margin-top:-150px !important;
-    height: 100vh !important;
+    min-height: 100vh !important;
 }
