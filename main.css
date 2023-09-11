@@ -4,6 +4,7 @@
         background-size: contain;
         background-position: center;
         background-repeat: no-repeat;
+        min-height: 100vh !important;
     }
 }
 
@@ -12,10 +13,10 @@ nav{
 }
 
 body{
-    min-height: 100vh !important;
+    
 }
 
 .content{
-    margin-top:-150px !important;
+    margin-top:-20  0px !important;
     min-height: 100vh !important;
 }
