@@ -1,3 +1,9 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
 @media screen and (max-width:990px) {
     .bg{
         background-image: linear-gradient(rgba(0, 0, 0, 0.747), rgba(0, 0, 0, 0.774)), url(./assets/IMG_20220509_153704-removebg-preview.png);
@@ -13,11 +19,16 @@ nav{
 }
 
 .content{
-    margin-top:-150px !important;
+    margin-top:-130px !important;
     padding-top: 0px;
     height: 70vh !important;
 }
 
 .hero-page{
     background-color: darkgray;
+    max-height: 1000vh !important;
+}
+
+body, h1, h2, h3, h4, h5, h6, p{
+    font-family: 'Space Grotesk', sans-serif;
 }
