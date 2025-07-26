@@ -31,7 +31,7 @@
 @media screen and (max-width:430px) {
     .bg{
         background-image: linear-gradient(rgba(0, 0, 0, 0.747), rgba(0, 0, 0, 0.774)), url(./assets/IMG_20220509_153704-removebg-preview.png);
-        background-size: contain;
+        background-size: cover;
         background-position: 10% 50%;
         background-repeat: no-repeat;
         max-height: 100vh !important;
