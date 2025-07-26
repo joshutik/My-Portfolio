@@ -20,6 +20,19 @@
     }
 }
 
+@media screen and (max-width:430px) {
+    .bg{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.747), rgba(0, 0, 0, 0.774)), url(./assets/IMG_20220509_153704-removebg-preview.png);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        max-height: 100vh !important;
+        overflow-y: hidden !important;
+    }
+}
+
+
+
 nav{
     background-color: transparent !important;
 }
@@ -40,4 +53,22 @@ about me
 
 .card {
     min-height: 80% !important;
-}   
+}  
+
+.about-img {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.452), black), url(./assets/action.png);
+    background-repeat: no-repeat;
+    background-position: 20% 40%;
+    background-attachment: fixed;
+}
+
+@media screen and (max-width:770px) {
+    .bg{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.747), rgba(0, 0, 0, 0.774)), url(./assets/IMG_20220509_153704-removebg-preview.png);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        max-height: 100vh !important;
+        overflow-y: hidden !important;
+    }
+}
