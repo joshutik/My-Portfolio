@@ -4,15 +4,23 @@
     box-sizing: border-box;
 }
 
+  html, body {
+    width: 100% !important;
+      height: 100% !important;
+    }
+
 .hero-page{
     background-color: darkgray;
     max-height: 80vh !important;
 }
 
 @media screen and (max-width:990px) {
+      html, body {
+      height: 100%;
+    }
     .bg{
         background-image: linear-gradient(rgba(0, 0, 0, 0.747), rgba(0, 0, 0, 0.774)), url(./assets/IMG_20220509_153704-removebg-preview.png);
-        background-size: contain;
+        background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
         max-height: 100vh !important;
