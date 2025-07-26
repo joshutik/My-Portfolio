@@ -22,7 +22,7 @@
 
 <body>
     <!-- header -->
-    <section class="hero-page">
+    <section class="hero-page ">
         <nav class="navbar bg-transparent fixed-top d-none d-lg-block">
             <div class="container-fluid">
                 <a class="navbar-brand" href="./index.html"></a>
@@ -70,7 +70,7 @@
                     <div class="mx-auto text-light">
                         <h4 class="text-capitalize mt-5 text-center text-info head">I'm</h4>
                         <p class="display-3 fw-bolder text-center text-wrap" id="typing">
-                            <span id="typed-text"></span>
+                            <span id="typed-text-desktop"></span>
                         </p>
                         <div class="lean text-center">
                             <a class="btn btn-outline-info icon-link icon-link-hover p-2 my-3 fw-bold" href="#">Learn
@@ -93,65 +93,71 @@
     </section>
 
     <!-- Mobile display -->
-    <div class="container-fluid bg d-md-block d-lg-none text-light py-3 vh-100">
-        <nav class="navbar navbar-dark pt-0">
-            <div class="container-fluid">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+    <section>
+        <div class="container-fluid bg d-md-block d-lg-none text-light py-3 vh-100">
+            <nav class="navbar navbar-dark pt-0">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
 
-                <div class="collapse" id="navbarToggleExternalContent" data-bs-theme="light">
-                    <div class=" p-4">
-                        <div class="offcanvas-body">
-                            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                                <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">About Me</a>
-                                </li>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                        aria-expanded="false">
-                                        Services
-                                    </a>
-                                    <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="#">Web Devlopment</a></li>
-                                        <li><a class="dropdown-item" href="#">Web development Instructor</a></li>
-                                        <li><a class="dropdown-item" href="#">Scratch</a></li>
-                                    </ul>
-                                </li>
-                            </ul>
+                    <div class="collapse" id="navbarToggleExternalContent" data-bs-theme="light">
+                        <div class=" p-4">
+                            <div class="offcanvas-body">
+                                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="about-me.html">About Me</a>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" role="button"
+                                            data-bs-toggle="dropdown" aria-expanded="false">
+                                            Services
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="#">Web Devlopment</a></li>
+                                            <li><a class="dropdown-item" href="#">Web development Instructor</a></li>
+                                            <li><a class="dropdown-item" href="#">Scratch</a></li>
+                                        </ul>
+                                    </li>
+
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="./project.html">Projects</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <div class="row justify-content-center align-items-center min-vh-100">
+                <div
+                    class="col-md-6 col-lg-6 col-sm-12 bg-transparent align-items-center py-5 w-auto rounded-3 shaadow-lg">
+                    <div class="mx-auto text-light mt-0">
+                        <!-- <h4 class="text-capitalize pt-0 text-center">Web developer/Instructor</h4>
+                    <p class="display-3 fw-bolder text-center text-wrap">
+                        I'm Joshua Utik
+                    </p> -->
+                        <h4 class="text-capitalize mt-5 text-center text-info head">I'm</h4>
+                        <p class="display-3 fw-bolder text-center text-wrap" id="typing">
+                            <span id="typed-text-mobile"></span>
+                        </p>
+                        <div class="lean text-center pb-5">
+                            <a class="btn btn-outline-info icon-link icon-link-hover p-2 my-3 fw-bold"
+                                href="./about-me.html">Learn More <i class="bi bi-arrow-right mb-1"></i></a>
+                            <a class="btn btn-info icon-link icon-link-hover ml-3 fw-bold" href="#"
+                                style="--bs-icon-link-transform: translate3d(0, -.125rem, 0);">DOWNLOAD CV <i
+                                    class="bi bi-cloud-download-fill fs-4 mb-2"></i></a>
                         </div>
                     </div>
                 </div>
             </div>
-        </nav>
-        <div class="row justify-content-center align-items-center min-vh-100">
-            <div class="col-md-6 col-lg-6 col-sm-12 bg-transparent align-items-center py-5 w-auto rounded-3 shaadow-lg">
-                <div class="mx-auto text-light mt-0">
-                    <!-- <h4 class="text-capitalize pt-0 text-center">Web developer/Instructor</h4>
-                    <p class="display-3 fw-bolder text-center text-wrap">
-                        I'm Joshua Utik
-                    </p> -->
-                    <h4 class="text-capitalize mt-5 text-center text-info head">I'm</h4>
-                    <p class="display-3 fw-bolder text-center text-wrap" id="typing">
-                        <span id="typed-text"></span>
-                    </p>
-                    <div class="lean text-center pb-5">
-                        <a class="btn btn-outline-info icon-link icon-link-hover p-2 my-3 fw-bold"
-                            href="./about-me.html">Learn More <i class="bi bi-arrow-right mb-1"></i></a>
-                        <a class="btn btn-info icon-link icon-link-hover ml-3 fw-bold" href="#"
-                            style="--bs-icon-link-transform: translate3d(0, -.125rem, 0);">DOWNLOAD CV <i
-                                class="bi bi-cloud-download-fill fs-4 mb-2"></i></a>
-                    </div>
-                </div>
-            </div>
         </div>
-    </div>
-
+    </section>
 
 
 
